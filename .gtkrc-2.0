@@ -1,0 +1,11 @@
+style "xfdesktop-icon-view" {
+font_name = "WenQuanYi Micro Hei"			#字体名称设置
+XfdesktopIconView::label-alpha = 10	#透明度设置
+base[NORMAL] = "#000000"		#背景颜色(下同)
+base[SELECTED] = "#71B9FF"
+base[ACTIVE] = "#71FFAD"
+fg[NORMAL] = "#ffffff"			#文字颜色(下同)
+fg[SELECTED] = "#71B9FF"
+fg[ACTIVE] = "#71FFAD" }
+widget_class "*XfdesktopIconView*" style "xfdesktop-icon-view"
+
