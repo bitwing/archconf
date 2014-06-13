@@ -24,5 +24,12 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 # export JAVA_HOME=/home/ma/build/jdk1.8.0_05/
 # export PATH=$PATH:$JAVA_HOME/bin/
-export PATH=$PATH:/home/ma/build/jdk1.8.0_05/bin/
-exec startxfce4
+# export PATH=$PATH:/home/ma/build/jdk1.8.0_05/bin/
+ export QT_PLUGIN_PATH=$HOME/.kde4/lib/kde4/plugins/:/usr/lib/kde4/plugins/
+# export QTCHOOSER_RUNTOOL=qtconfig
+# export QT_SELECT=4
+# QT_PLATFORM_PLUGIN=lxqt
+ exec startxfce4
+# exec startlxqt
+# exec startkde
+# exec openbox-session
