@@ -31,6 +31,10 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Plugin 'user/L9', {'name': 'newL9'}
 
 Plugin 'Lokaltog/vim-powerline'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Shougo/neocomplcache.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'godlygeek/tabular'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -124,3 +128,15 @@ set laststatus=2
 set t_Co=256 "Explicity tell Vim that the terminal supports 256 colors
 colorscheme molokaiv2
 let g:Powerline_symbols = 'fancy'
+set cursorline
+
+set cindent
+""NERFCONF
+autocmd vimenter * NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
+" neocomplcache
+let g:neocomplcache_enable_at_starup = 1
+
+" tabular
+let g:tabular_loaded = 1
