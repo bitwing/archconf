@@ -2,7 +2,7 @@
 # ~/.bashrc
 #
 
-# 104.128.82.176 
+# 104.160.32.24
 # If not running interactively, don't do anything
 # export LANG=zh_CN.UTF-8
 # export LANGUAGE=zh_CN:en_US
